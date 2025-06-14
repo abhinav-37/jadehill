@@ -154,31 +154,42 @@ body {
 }
 
 .carousel-slide:nth-child(1) {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('images/Cold store shot.webp');
     background-size: cover;
     background-position: center;
 }
 
 .carousel-slide:nth-child(2) {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('images/cs 2.webp');
     background-size: cover;
     background-position: center;
 }
 
 .carousel-slide:nth-child(3) {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('images/mahua closeup.webp');
     background-size: cover;
     background-position: center;
 }
 
 .carousel-slide:nth-child(4) {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('images/Mahua Pic.webp');
     background-size: cover;
     background-position: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    background: rgba(0,0,0,0.6);
+    padding: 2.5rem;
+    border-radius: 8px;
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    max-width: 700px;
 }
 
 .hero-content h1 {
@@ -187,13 +198,15 @@ body {
     color: #fff;
     margin-bottom: 1rem;
     font-weight: 700;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
 }
 
 .hero-content p {
     font-size: 1.3rem;
-    color: #ccc;
+    color: #fff;
     margin-bottom: 2rem;
     max-width: 600px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 .cta-button {
@@ -207,11 +220,14 @@ body {
     letter-spacing: 1px;
     transition: all 0.3s ease;
     border: 2px solid #d4af37;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 .cta-button:hover {
     background-color: transparent;
     color: #d4af37;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+    transform: translateY(-2px);
 }
 
 /* Carousel Navigation */
@@ -422,10 +438,197 @@ body {
     line-height: 1.6;
 }
 
+/* Vision Section */
+.vision {
+    padding: 80px 0;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.vision h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #d4af37;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.vision p {
+    color: #ccc;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Values Section */
+.values {
+    padding: 80px 0;
+    background-color: #2a2a2a;
+}
+
+.values h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #d4af37;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.value-card {
+    background-color: #333;
+    padding: 2.5rem;
+    text-align: center;
+    border: 1px solid #444;
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    border-color: #d4af37;
+    transform: translateY(-5px);
+}
+
+.value-card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.value-card p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Service Overview */
+.service-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.service-highlight {
+    background-color: #2a2a2a;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.service-highlight h3 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.service-highlight p {
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Commodities Section */
+.commodities-section {
+    margin-bottom: 4rem;
+}
+
+.commodities-section h3 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.commodities-table {
+    background-color: #2a2a2a;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.commodity-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-bottom: 1px solid #333;
+}
+
+.commodity-row:last-child {
+    border-bottom: none;
+}
+
+.commodity-row.header {
+    background-color: #333;
+}
+
+.commodity-row.header .commodity-name,
+.commodity-row.header .commodity-time {
+    font-weight: 600;
+    color: #d4af37;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.commodity-name,
+.commodity-time {
+    padding: 1rem;
+    color: #ccc;
+    border-right: 1px solid #333;
+}
+
+.commodity-time {
+    border-right: none;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Value Added Services */
+.value-added-services {
+    margin-top: 4rem;
+}
+
+.value-added-services h3 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.value-added-services .service-card h4 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
 /* Features Section */
 .features {
     padding: 80px 0;
     background-color: #2a2a2a;
+}
+
+.features h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #d4af37;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 700;
 }
 
 .features-content {
@@ -724,8 +927,8 @@ body {
 /* Mahua Export Page Styles */
 .mahua-hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('images/Mahua Pic.webp');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -790,7 +993,7 @@ body {
 
 .mahua-image {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+                url('images/mahua closeup.webp');
     background-size: cover;
     background-position: center;
     border-color: #d4af37;

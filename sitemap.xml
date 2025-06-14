@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://jadehillcoldstorage.com/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://jadehillcoldstorage.com/images/Cold store shot.webp</image:loc>
+      <image:title>Jade Hill Cold Storage Facility</image:title>
+      <image:caption>Premium cold storage facility in Hazaribagh, Jharkhand</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jadehillcoldstorage.com/images/cs 2.webp</image:loc>
+      <image:title>Cold Storage Facility with Loading Dock</image:title>
+      <image:caption>Modern cold storage facility with truck loading capabilities</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jadehillcoldstorage.com/images/mahua closeup.webp</image:loc>
+      <image:title>Premium Mahua Flowers Close-up</image:title>
+      <image:caption>High-quality Mahua flowers for export and alcohol production</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jadehillcoldstorage.com/images/Mahua Pic.webp</image:loc>
+      <image:title>Mahua Flowers Display</image:title>
+      <image:caption>Premium Mahua flowers ready for processing and export</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Mahua Export Page -->
+  <url>
+    <loc>https://jadehillcoldstorage.com/mahua-export.html</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://jadehillcoldstorage.com/images/Mahua Pic.webp</image:loc>
+      <image:title>Premium Mahua Export</image:title>
+      <image:caption>Export quality Mahua flowers for alcohol production worldwide</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jadehillcoldstorage.com/images/mahua closeup.webp</image:loc>
+      <image:title>Mahua Flowers for Distillery</image:title>
+      <image:caption>Premium Mahua flowers with optimal sugar content for distilleries</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>
